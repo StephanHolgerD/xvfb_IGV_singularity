@@ -1,0 +1,3 @@
+id	chr	pos	mapping	key
+Patient1	2	41196311	/mnt/pat1.bam	pat1_brcaBlaBlub
+Patient2	2	41196311	/mnt/pat2.bam	pat2_brcaBlaBlub
