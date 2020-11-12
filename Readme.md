@@ -1,7 +1,7 @@
 # repository to explain headless automatic plotting with igv
 
 
-##requirements
+## requirements
 
 * working singularity installation
 * python3
@@ -14,7 +14,7 @@ or
 * python3
 
 
-##Docker & Singularity
+## Docker & Singularity
 [IGV_xfvb Image](https://hub.docker.com/repository/docker/stephanholgerdrukewitz/igvplots)
 
 Image can be pulled and formated to singularity format using:
