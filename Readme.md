@@ -26,8 +26,8 @@ singularity pull docker://stephanholgerdrukewitz/igvplots:latest
 
 ### How it works
 
-*call PlotVarSingularity or PlotVarIGVlocal funtion from the igvXfvb.py script
-*both functions need an ID, chro, start, end, mapping, key
+* call PlotVarSingularity or PlotVarIGVlocal funtion from the igvXfvb.py script
+* both functions need an ID, chro, start, end, mapping, key
 * chro, start, end, mapping, are informations about the alignment file and the position of interest
 * ID and key are only uysed in the naming of the output, could be removed in future
 * both functions write a 'plot.bat' file which is later read in by igvXfvb
