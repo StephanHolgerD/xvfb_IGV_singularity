@@ -2,6 +2,7 @@ from glob import glob
 import pandas as pd
 import subprocess
 
+IGV_jar='path/to/.jar' ##need to provide path to igv.ja file on your system, is needed for the subprocess call
 
 #definition to run igv using a bat file
 #defintion needs:
@@ -53,9 +54,6 @@ def PlotVarSingularity(ID, chro, start, end, mapping, key):
                     '-Xmx8000m', '-jar',
                     '/opt/conda/bin/igv.jar', '-b' ,'plot.bat'])
 
-
-
-IGV_jar='path/to/.jar' ##need to provide path to igv.ja file on your system, is needed for the subprocess call
 
 def PlotVarIGVlocal(ID, chro, start, end, mapping, key):
     WritePlotBat(ID, chro, start, end, mapping, key)
